@@ -12,6 +12,16 @@
 }
 
 /* ========================================
+   BODY STYLES
+   ======================================== */
+
+/* Reset default body margins and padding for full-width layout */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ========================================
    PROJECT CARD STYLES
    ======================================== */
 
@@ -40,6 +50,18 @@
 .projectCardCol {
     display: flex;
     flex-direction: column;
+}
+
+/* Project card wrapper - responsive container with minimum height for consistent layout */
+.projectCardWrapper {
+    max-width: 100%;
+    min-height: 160px;
+}
+
+/* Feature image container - fixed dimensions for project thumbnail */
+.featureImageSize {
+    height: 100px;
+    width: 100px;
 }
 
 /* ========================================
