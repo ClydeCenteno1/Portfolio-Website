@@ -1,0 +1,103 @@
+/* ========================================
+   CUSTOM STYLES FOR PORTFOLIO WEBSITE
+   ======================================== */
+
+/* ========================================
+   NAVIGATION STYLES
+   ======================================== */
+
+/* Navigation links in the navbar - increased font size for better readability */
+.nav-link {
+    font-size: 13px;
+}
+
+/* ========================================
+   PROJECT CARD STYLES
+   ======================================== */
+
+/* Technology category tags styling - displays tech skills used in projects */
+.techCategory {
+    font-size: 10px;
+}
+
+/* Project description text - brief summary of each project */
+.projectDescription {
+    font-size: 0.7rem;
+}
+
+/* Creator's small circular profile image in cards */
+.subImage img {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+/* Creator's name displayed next to the small profile image */
+.subImageName {
+    font-size: 14px;
+}
+
+/* Flexbox container for responsive card layout - stacks content vertically */
+.projectCardCol {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ========================================
+   RESPONSIVE MEDIA QUERIES
+   ======================================== */
+
+/* DESKTOP SCREENS: 1024px and larger - optimized layout for desktop displays */
+@media (max-width: 1024px) {
+
+    /* Larger font for tech tags on desktop */
+    .techCategory {
+        font-size: 9px;
+    }
+
+    /* Enhanced description readability on desktop */
+    .projectDescription {
+        font-size: 0.75rem;
+    }
+
+    /* Larger creator name on desktop */
+    .subImageName {
+        font-size: 13px;
+    }
+
+    /* Increased padding for better spacing on desktop cards */
+    .border.rounded.d-flex {
+        padding: 0.75rem !important;
+    }
+}
+
+/* ========================================
+   PROFILE SECTION STYLES
+   ======================================== */
+
+/* Top and bottom margins for profile section containers */
+.profileBorder {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+/* Main profile name/title text sizing */
+.profileName {
+    font-size: 24px;
+}
+
+/* Technology tags in the profile section */
+.profileTechCategory {
+    font-size: 12px;
+}
+
+/* Subtitle text in profile section */
+.profileSubText {
+    font-size: 16px;
+}
+
+/* Profile image container - constrains circular profile picture size */
+.profileImage {
+    max-width: 100px;
+    max-height: 100px;
+}
