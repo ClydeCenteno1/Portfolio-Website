@@ -63,6 +63,27 @@ body {
     height: 100px;
     width: 100px;
 }
+.reviews h2{
+    font-size: 30px;
+}
+.reviews p{
+    font-size: 12px;
+}
+
+.stars{
+    font-size: 0.5rem;
+    color:rgb(227, 227, 0);
+}
+.card{
+    width: 240px;
+    height: 152px;
+    background-color: rgba(242, 242, 242);
+}
+
+.techCategory,.profileTechCategory{
+    background-color: rgba(242, 242, 242)!important;
+}
+
 
 /* ========================================
    RESPONSIVE MEDIA QUERIES
