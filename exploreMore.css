@@ -1,0 +1,26 @@
+/* ========================================
+   EXPLORE MORE PAGE STYLES
+   ======================================== */
+
+/* ========================================
+   NAVIGATION STYLES
+   ======================================== */
+
+/* Navigation links in the navbar - increased font size for better readability */
+.nav-link, .search{
+    font-size: 12px;
+}
+
+/* ========================================
+   BODY STYLES
+   ======================================== */
+
+/* Reset default body margins and padding for full-width layout */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}

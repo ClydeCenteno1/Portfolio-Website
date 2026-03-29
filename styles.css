@@ -7,8 +7,8 @@
    ======================================== */
 
 /* Navigation links in the navbar - increased font size for better readability */
-.nav-link {
-    font-size: 13px;
+.nav-link, .search{
+    font-size: 12px;
 }
 
 /* ========================================
