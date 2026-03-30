@@ -1,3 +1,32 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "editor.suggest.enabled": true,
+    "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on",
+        "other": "on"
+    },
+    "editor.parameterHints.enabled": true,
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+    "editor.autoClosingTags": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.suggest.enabled": true
+    },
+    "html.suggest.html5": true,
+    "[css]": {
+        "editor.suggest.enabled": true
+    },
+    "editor.inlineSuggest.enabled": false,
+    "github.copilot.enable": {
+        "*": true,
+        "html": true,
+        "css": true
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    "editor.suggest.autoTrigger": "on"
 }
